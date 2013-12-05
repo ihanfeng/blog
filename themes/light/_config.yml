@@ -1,0 +1,48 @@
+#站点右上角导航栏
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+
+#站点右边栏
+widgets:
+- search
+- category
+- tag
+- tagcloud
+- weibo
+- blogroll
+
+
+excerpt_link: 阅读全文
+
+#右边栏要显示twitter展示的话，需要在此设置
+twitter:
+  username: zhdevelop
+  show_replies: false
+  tweet_count: 5
+
+#SNS分享，身在天朝，当然用“百度分享”
+addthis:
+  enable: true
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: false
+
+#图片效果，默认
+fancybox: true
+
+#要使用google_analytics进行统计的话，这里需要配置ID
+google_analytics: UA-41331600-2
+#生成RSS，需要配置路径
+rss: /atom.xml
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
