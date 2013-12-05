@@ -1,4 +1,3 @@
-<a href="https://github.com/zhdevelop"><img style="position: absolute; top: 0; left: 0; border: 0; width: 120px; height: 120px;" src="https://github.com/zhdevelop/zhdevelop.github.io/blob/master/img/left-turquoise2x.png?raw=true" alt="Fork me on GitHub"></a>
 <div class="alignleft">
   <h1><a href="<%- config.root %>"><%= config.title %></a></h1>
   <h2><a href="<%- config.root %>"><% if (config.subtitle){ %><%= config.subtitle %><% } %></a></h2>
@@ -9,7 +8,11 @@
       <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
     <% } %>
     <li> <a href="/atom.xml">RSS</a> </li>
+
+    <%- partial('hight') %>
+
   </ul>
   <div class="clearfix"></div>
 </nav>
 <div class="clearfix"></div>
+<a href="https://github.com/zhdevelop"><img style="position: absolute; top: 0; left: 0; border: 0; width: 120px; height: 120px;" src="https://github.com/zhdevelop/zhdevelop.github.io/blob/master/img/left-turquoise2x.png?raw=true" alt="Fork me on GitHub"></a>
