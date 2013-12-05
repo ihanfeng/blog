@@ -1,3 +1,20 @@
+title: Hexo教程三：Hexo配置
+date: 2013-12-05 12:31:03
+categories: hexo
+tags: [hexo,hexo配置]
+---
+前面的章节，我们学会了搭建hexo博客站点。现在我们来进入配置环节。
+
+hexo的配置文件有2个。
+
+- `_config.yml` 整站配置
+- `themes\light_config.yml` 主题配置
+
+<!-- more -->
+
+###**1、整站配置文件 _config.yml**
+
+{%codeblock lang:yaml %}
 # Hexo Configuration
 ## Docs: http://zespia.tw/hexo/docs/configure.html
 ## Source: https://github.com/tommy351/hexo/
@@ -90,10 +107,64 @@ deploy:
   repository: https://github.com/zhdevelop/zhdevelop.github.io.git
   branch: master
 
-#RSS插件 
-#添加sitemap
+#RSS插件 添加sitemap
   plugins:
 	- hexo-generator-feed
 	- hexo-generator-sitemap
 
+{%endcodeblock%}
 
+###**2、主题配置文件 light_config.yml**
+
+{%codeblock lang:yaml %}
+#站点右上角导航栏
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+
+#站点右边栏
+widgets:
+- search
+- category
+- tagcloud
+- weibo
+- blogroll
+
+
+excerpt_link: 阅读全文
+
+#右边栏要显示twitter展示的话，需要在此设置
+twitter:
+  username: zhdevelop
+  show_replies: false
+  tweet_count: 5
+
+#SNS分享，身在天朝，当然用“百度分享”
+addthis:
+  enable: true
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: false
+
+#图片效果，默认
+fancybox: true
+
+#要使用google_analytics进行统计的话，这里需要配置ID
+google_analytics: UA-41331600-2
+#生成RSS，需要配置路径
+rss: /atom.xml
+
+comment_provider: facebook
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
+  {%endcodeblock%}
+
+###**参考文献：**
+[zipperary's Blog](http://zipperary.com/2013/05/29/hexo-guide-3/)
