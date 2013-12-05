@@ -1,3 +1,20 @@
+<<<<<<< HEAD
 .DS_Store
+public/
+=======
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
 node_modules
-db.json
+>>>>>>> 8932b54514e44bb419b98e74f40dc2d35b05f41f
