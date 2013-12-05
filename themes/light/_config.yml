@@ -7,9 +7,10 @@ menu:
 #站点右边栏
 widgets:
 - search
-- info
 - category
+- recent_posts
 - tagcloud
+- info
 - weibo
 - blogroll
 
