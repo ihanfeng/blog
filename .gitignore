@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 .DS_Store
-public/
 =======
 lib-cov
 *.seed
@@ -18,3 +17,4 @@ results
 npm-debug.log
 node_modules
 >>>>>>> 8932b54514e44bb419b98e74f40dc2d35b05f41f
+/public
