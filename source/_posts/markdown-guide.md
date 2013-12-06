@@ -36,7 +36,7 @@ Markdown是一种轻量级标记语言，允许人们使用易读易写的纯文
 
 
 注：# 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。
-<img src="/img/markdown-biaoti.jpg"/>
+<img src="/img/2013/12/markdown-biaoti.jpg"/>
 
 ###**引用**
 
@@ -46,7 +46,7 @@ Markdown是一种轻量级标记语言，允许人们使用易读易写的纯文
 
 注：> 和文本之间要保留一个字符的空格。
 
-![](/img/markdown-yinyong.jpg)
+![](/img/2013/12/markdown-yinyong.jpg)
 
 ###**列表**
 
@@ -67,7 +67,7 @@ Markdown是一种轻量级标记语言，允许人们使用易读易写的纯文
 
 注：`-`、`1.`和文本之间要保留一个字符的空格。
 
-<img src="/img/markdown-liebiao.jpg"/>
+<img src="/img/2013/12/markdown-liebiao.jpg"/>
 
 
 ###**链接**

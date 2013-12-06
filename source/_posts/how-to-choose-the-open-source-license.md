@@ -10,5 +10,5 @@ tags:  [开源许可,GPL, BSD, MIT, Mozilla, Apache, LGPL]
 <!-- more -->
 这是我见过的最简单的讲解，只用两分钟，你就能搞清楚这六种许可证之间的最大区别。
 
-![](/img/free_software_licenses.png)
+![](/img/2013/12/free_software_licenses.png)
 
