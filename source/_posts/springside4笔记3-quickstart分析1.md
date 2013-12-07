@@ -1,4 +1,4 @@
-title: SpringSide4笔记3-QuickStart分析(1)
+title: SpringSide4学习笔记3-QuickStart分析(1)
 date: 2013-12-07 15:23:16
 categories: SpringSide4
 tags: [springside4,quickstart,源码研究]
