@@ -100,6 +100,12 @@ Markdown 的粗体和斜体也非常简单，用两个 `*` 包含一段文本就
 - 文本前后各加一个符号，表示斜体
 
 
+###**表格**
+可以使用html格式进行编写。
+在线处理：[http://pressbin.com/tools/excel_to_html_table/index.html](http://pressbin.com/tools/excel_to_html_table/index.html)
+
+参考链接：[http://www.ituring.com.cn/article/3452](http://www.ituring.com.cn/article/3452)
+
 ##**参考文献：**
 1.[鲁塔弗：markdown 简明语法](http://lutaf.com/markdown-simple-usage.htm)
 2.[图灵社区：怎样使用Markdown](http://www.ituring.com.cn/article/23)
