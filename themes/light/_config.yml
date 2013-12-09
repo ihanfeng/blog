@@ -36,7 +36,7 @@ addthis:
 fancybox: true
 
 #要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: UA-41331600-2
+google_analytics: UA-41331600-1
 #生成RSS，需要配置路径
 rss: /atom.xml
 

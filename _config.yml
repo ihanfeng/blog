@@ -18,7 +18,7 @@ language: zh-CN
 
 # URL 绑定域名配置
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhdevelop.github.io/
+url: http://zhujunwang.cn
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -87,7 +87,8 @@ exclude_generator:
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
 deploy:
   type: github
-  repository: https://github.com/zhdevelop/zhdevelop.github.io.git
+  #repository: https://github.com/zhdevelop/zhdevelop.github.io.git
+  repository: git@github.com:zhdevelop/zhdevelop.github.io.git
   branch: master
 
 #RSS插件 
