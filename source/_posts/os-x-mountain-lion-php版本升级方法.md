@@ -5,7 +5,7 @@ tags:
 - mac
 - php
 categories: 
-- PHP
+- PHP5
 ---
 
 推荐使用[php-osx by Liip](http://php-osx.liip.ch/)

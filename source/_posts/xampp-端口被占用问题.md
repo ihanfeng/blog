@@ -5,7 +5,7 @@ tags:
 - xampp 端口
 - 端口占用
 categories: 
-- PHP
+- PHP5
 ---
 
 <div id="zoomtext">ampp要修改两个地方才能启动Apache。不然就把模块Mod_SSL注释掉。就可以不用理443这个了。
