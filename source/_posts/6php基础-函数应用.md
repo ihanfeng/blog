@@ -69,6 +69,7 @@ function 函数名([参数1,参数2,...参数n]){
 {%endcodeblock%}
 
 还可以使用特殊的PHP自定义$GLOBALS数组。
+{%codeblock lang:php%}
 <?php
 	$one = 200;
 	$two = 100;
