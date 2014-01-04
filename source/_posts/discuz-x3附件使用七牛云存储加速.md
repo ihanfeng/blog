@@ -1,6 +1,6 @@
 title: Discuz X3附件使用七牛云存储加速
 date: 2013-12-30 12:51:59
-categories: [平台集成]
+categories: Discuz
 tags: [discuz,qiniu,七牛,加速]
 ---
 正在使用discuz搭建本地社区，因为空间准备在国外购买，所以想使用七牛云存储来保存论坛的附件，特别是图片，来加速。
